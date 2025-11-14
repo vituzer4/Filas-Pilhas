@@ -1,69 +1,74 @@
-📘 Atividades de Estruturas de Dados em Java
+# 📘 Atividades de Estruturas de Dados em Java
 
-Este repositório contém 4 atividades simples feitas em sala para praticar pilhas (Stack) e filas (Queue) em Java.
+Este repositório contém **4 atividades simples** feitas em sala para praticar **pilhas (Stack)** e **filas (Queue)** em Java.
 
-📝 Atividade 1 — Pilha de Livros
+---
 
-Usa Stack<String>
+## 📝 Atividade 1 — Pilha de Livros
 
-Permite:
+**Usa:** `Stack<String>`
 
-Adicionar livro
+**Permite:**
+- ➕ Adicionar livro
+- ➖ Remover livro do topo
+- 👁️ Ver livro do topo
+- 📋 Listar todos os livros
 
-Remover livro do topo
+**Objetivo:** Entender o funcionamento da pilha (**LIFO** - Last In, First Out).
 
-Ver livro do topo
+---
 
-Listar todos os livros
+## 📝 Atividade 2 — Conversão Decimal → Binário
 
-Objetivo: entender o funcionamento da pilha (LIFO).
+**Usa:** `Stack<Integer>`
 
-📝 Atividade 2 — Conversão Decimal → Binário
+**Processo:**
+1. Enquanto o número é > 0:
+   - Divide por 2
+   - Guarda o resto na pilha
+2. Desempilha para formar o binário
 
-Usa Stack<Integer>
+**Objetivo:** Aplicar pilha em um processo matemático simples.
 
-Enquanto o número é > 0:
+---
 
-divide por 2
+## 📝 Atividade 3 — Sistema de Senhas do Banco
 
-guarda o resto na pilha
+**Usa:** `Queue<String>` com `LinkedList`
 
-Depois desempilha para formar o binário
+**Permite:**
+- 🎫 Gerar nova senha (S001, S002...)
+- 📢 Chamar próxima senha
+- 👥 Mostrar senhas aguardando
 
-Objetivo: aplicar pilha em um processo matemático simples.
+**Objetivo:** Entender fila (**FIFO** - First In, First Out).
 
-📝 Atividade 3 — Sistema de Senhas do Banco
+---
 
-Usa Queue<String> com LinkedList
+## 📝 Atividade 4 — Fila de Impressão
 
-Permite:
+**Usa:** `Queue<Documento>`
 
-Gerar nova senha (S001, S002...)
+**Cada documento possui:**
+- 📄 Nome do arquivo
+- 📃 Número de páginas
 
-Chamar próxima senha
+**Permite:**
+- ➕ Adicionar documento
+- 👁️ Ver próximo a ser impresso
+- 🖨️ "Imprimir" (remover da fila)
+- 📊 Ver quantidade na fila
 
-Mostrar senhas aguardando
+**Objetivo:** Usar filas com objetos personalizados.
 
-Objetivo: entender fila (FIFO).
+---
 
-📝 Atividade 4 — Fila de Impressão
+## 🛠️ Tecnologias
 
-Usa Queue<Documento>
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Estruturas de Dados](https://img.shields.io/badge/Estruturas_de_Dados-4CAF50?style=for-the-badge)
 
-Cada documento possui:
+---
 
-nome do arquivo
-
-número de páginas
-
-Permite:
-
-Adicionar documento
-
-Ver próximo a ser impresso
-
-“Imprimir” (remover)
-
-Ver quantidade na fila
-
-Objetivo: usar filas com objetos personalizados.
+## 🚀 Como Executar
+```bash
